@@ -265,7 +265,7 @@ if (window.innerWidth <= 968) {
             top: 80px;
             left: 0;
             right: 0;
-            background: rgba(255, 249, 230, 0.98);
+            background: rgba(255, 247, 214, 0.98);
             padding: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
             gap: 15px;

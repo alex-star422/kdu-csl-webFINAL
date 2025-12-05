@@ -7,8 +7,8 @@
 
 :root {
     /* Color Palette */
-    --primary-yellow: #FFF9E6;
-    --light-yellow: #FFFCF0;
+    --primary-yellow: #FFF7D6;
+    --light-yellow: #FFFAE0;
     --dark-yellow: #FFE8A3;
     --primary-blue: #1E56A0;
     --dark-blue: #163E6C;
@@ -56,7 +56,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 249, 230, 0.95);
+    background: rgba(255, 247, 214, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 10px var(--shadow-light);
     z-index: 1000;
