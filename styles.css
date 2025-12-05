@@ -830,10 +830,73 @@ body {
     margin-top: 40px;
 }
 
-/* ===== Contact Section ===== */
-.contact-section {
+/* ===== Sources Section ===== */
+.sources-section {
     background: var(--light-yellow);
     min-height: auto;
+    padding: 60px 0;
+}
+
+.sources-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+    background: var(--white);
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px var(--shadow-light);
+}
+
+.sources-block h3,
+.author-block h3 {
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.sources-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sources-list li {
+    color: var(--text-dark);
+    font-size: 1rem;
+    line-height: 1.8;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.sources-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent-blue);
+    font-weight: bold;
+}
+
+.author-block {
+    text-align: right;
+    border-left: 3px solid var(--accent-blue);
+    padding-left: 30px;
+    min-width: 250px;
+}
+
+.author-line,
+.date-line {
+    color: var(--text-dark);
+    font-size: 1rem;
+    line-height: 2;
+    margin: 0;
+}
+
+.author-line strong,
+.date-line strong {
+    color: var(--primary-blue);
 }
 
 .contact-content {
@@ -1091,5 +1154,19 @@ body {
 
     .hero-buttons {
         flex-direction: column;
+    }
+
+    .sources-content {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .author-block {
+        border-left: none;
+        border-top: 3px solid var(--accent-blue);
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: left;
     }
 }
